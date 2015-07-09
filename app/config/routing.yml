@@ -1,0 +1,15 @@
+divers_pote:
+    resource: "@DiversPoteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pote:
+    resource: "@PoteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+divers_voyage:
+    resource: "@DiversVoyageBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

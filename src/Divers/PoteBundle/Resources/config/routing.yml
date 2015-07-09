@@ -1,0 +1,3 @@
+divers_pote_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DiversPoteBundle:Default:index }
